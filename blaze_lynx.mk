@@ -16,14 +16,14 @@ $(call inherit-product, device/google/lynx/device-lineage.mk)
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 7a
-PRODUCT_NAME := lineage_lynx
+PRODUCT_NAME := blaze_lynx
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 #blaze
-BLAZE_MAINTAINER := k7b3y
+BLAZE_MAINTAINER := j7b3y
 EXTRA_UDFPS_ANIMATIONS := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
